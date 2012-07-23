@@ -1,45 +1,143 @@
 <html>
   <head>
     <title>Noah H. Smith - Resume</title>
-    <link rel="stylesheet" type="text/css" href="/css/resume.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/resume.css" />
     <script type="test/javascript" src=""></script>
   </head>
   <body>
-    <header>
-      <div class="page-title">
-        Noah H. Smith
-        <small>Last Resume on Earth</small>
-      </div>
-      <img src="http://1.gravatar.com/avatar/b21d9be12d1f301f6b1a54f5c6c3aabf?size=120" />
-    </header>
+    <div id="app">
+      <header class="row">
+        <div class="span4">
+          <div id="page-title">
+            Noah H. Smith
+          </div>
+          
+          <menu id="places">
+            <a href="http://noazark.github.com">
+              <small>see me on github</small>
+              <img src="img/github.png"/>
+            </a><br/>
+            
+            &#110;&#111;&#097;&#104;&#064;&#114;&#101;&#110;&#100;&#101;&#114;&#103;&#097;&#114;&#100;&#101;&#110;&#109;&#101;&#100;&#105;&#097;&#046;&#099;&#111;&#109;<br/>
 
-    <section>
-      <h1>Contact</h1>
-      <dl>
-        <dt>email</dt>
-          <dd>
-            &#110;&#111;&#097;&#104;&#064;&#114;&#101;&#110;&#100;&#101;&#114;&#103;&#097;&#114;&#100;&#101;&#110;&#109;&#101;&#100;&#105;&#097;&#046;&#099;&#111;&#109;
-          </dd>
-        <dt>phone</dt>
-          <dd>913.963.8640</dd>
-        <dt>website</dt>
-          <dd>
-            <a href="http://github.com/noazark">github.com/noazark</a>
-          </dd>
-      </dl>
-    </section>
+            913.963.8640
+          </menu>
+         </div>
 
-    <section>
-      <h1>Employment</h1>
-    </section>
+        <div class="thumbnail span2">
+          <img src="http://1.gravatar.com/avatar/b21d9be12d1f301f6b1a54f5c6c3aabf?size=120" />
+        </div>
+      </header>
 
-    <section>
-      <h1>Projects</h1>
-      <h2>BatteredOats</h2>
-    </section>
+      <section class="row">
+        <p class="span6">
+          I am a full stack software development nerd. For the past 5 years I
+          have either worked freelance or leading a team on the widest variety
+          of projects. Recently I've been focusing on a few personal projects
+          while watching The Price is Right and honing my Mario Kart skills.
+        </p>
+      </section>
+      <section class="row">
+        <h1 class="span2">Employment</h1>
 
-    <section>
-      <h1>Open Source</h1>
-    </section>
+        <div class="span4">
+          <h2>RenderGarden Media<br/>
+            <small>Owner
+              <time>2008-2012</time>
+            </small>
+          </h2>
+          <p>
+            Contract software development. I started working on my own doing
+            freelance design, which seamlessly evolved into full stack software
+            development (my true love). Ultimately this work evolved into a team
+            of 5 and a few healthy projects for the final year until we all went
+            our separate ways in early 2012. RenderGarden was one of the most
+            fulfilling things I have ever been a part of.
+          </p>
+        </div>
+      </section>
+
+      <section class="row">
+        <h1 class="span2">Projects & Client Work</h1>
+        <div class="span4">
+          <h2>
+            <a href="http://www.batteredoats.com">Battered Oats</a>
+            <br/>
+            <small>
+              eat what you like
+            </small>
+          </h2>
+          <p>
+            It started out as a personal project, building a simple recipe site,
+            turned into the culmination of an old idea: users should learn their
+            way through an application. Trading text-field overkill for natural
+            language processing and directions for simplicity mean a user has to
+            think less and will become emotionally attached to the application's
+            experience.
+          </p>
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>jQuery</li>
+            <li>Heroku</li>
+            <li>MongoDB</li>
+            <li>Redis</li>
+          </ul>
+          <h2>
+            Feature Creeper
+            <br/>
+            <small>
+              brain-trust project management
+            </small>
+          </h2>
+          <p>
+            After working with far to many control freaks who didn't know how to
+            let the software team be agile, I decided to look into a happy
+            solution.
+          </p>
+          <p>
+            Although far from complete, the general concept and implementation
+            is to build an interface around behavior driven development (with a
+            language such as Cucumber). The "brains" can add their feature
+            requests in a comfortable interface which will directly be added to
+            a bucket for review by the software team. From there, the feature is
+            automatically tracked through the development cycle and will be
+            reported on as necessary.
+          </p>
+        </div>
+      </section>
+
+      <section class="row">
+        <h1 class="span2">Open Source</h1>
+        <div class="span4">
+          <h2>
+            <a href="https://github.com/noazark/alonso">Alonso</a>
+            <br/>
+            <small>
+              distributed log file aggregation
+            </small>
+          </h2>
+          <p>
+            A three part Node.js application that follows log files and streams
+            them to any number of external harvesting nodes. In reality, this
+            was used in production to stream a variety of flat text files in
+            real-time. Alonso is simple, small and awesome.
+          </p>
+          <p>
+            <a href="https://github.com/noazark/alonso" title="Fork it">Fork it on Github</a>
+          </p>
+        </div>
+      </section>
+
+      <footer class="row">
+        <small class="copyright span6">
+          Copyright &copy; Noah H. Smith 2012.
+          <a href="https://github.com/noazark/noazark.github.com">
+            This page is available on Github.
+          </a>
+        </small>
+      </footer>
+    </div>
   </body>
 </html>
