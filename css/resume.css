@@ -26,7 +26,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  margin-bottom:5px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 h1 > small, h2 > small, h3 > small {
@@ -59,6 +61,22 @@ section {
   margin-top:20px;
   margin-right: -20px;
   border-top: 1px dotted #ccc;
+}
+
+ul {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 200;
+
+  list-style: none;
+  margin-left: 0;
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+ul li:before {
+  margin-right: 0.5em;
+  content: "\02D2";
 }
 
 .row {
@@ -159,6 +177,18 @@ dd {
 
 #page-title > small {
   font-size: 0.5em;
+}
+
+#iama {
+  margin-top: 10px;
+  font-size: 2.50em;
+  font-weight: 600;
+}
+
+#hubadahubada {
+  margin-top: 10px;
+  font-size: 1.25em;
+  font-weight: 600;
 }
 
 #places {
